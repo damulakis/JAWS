@@ -1,0 +1,12 @@
+.desktop-nav {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 10vh;
+    width: auto;
+}
