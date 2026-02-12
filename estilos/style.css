@@ -1,20 +1,46 @@
+/* Fontes */
+@font-face {
+    font-family: coolvetica;
+    src: url(Coolvetica\ Rg.otf);
+}
+
+/* Header e Navegação */
+
+.header-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .desktop-nav {
     padding: 20px 40px;
+    gap: 20vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
 }
 
+/* Logo */
 .logo {
     height: 10vh;
     width: auto;
 }
 
+/* Entrada Destaque */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+/* Título Destaque */
 .main-title {
     font-size: 58px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'coolvetica';
     color: rgb(212, 174, 124);
     font-weight: 400;
     font-style: italic;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
