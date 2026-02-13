@@ -1,0 +1,155 @@
+/* Fontes */
+@font-face {
+    font-family: coolvetica;
+    src: url(Coolvetica\ Rg.otf);
+}
+
+/* Header e Navegação */
+
+.header-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.desktop-nav {
+    font-family: 'Coolvetica';
+    font-size: 22px;
+    padding: 20px 40px;
+    gap: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+/* Entrada Destaque - Bloco 1 */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 40px 20px;
+    min-height: 700px;
+        background: linear-gradient(to right, #1DA1F2 50%, transparent 50%);
+
+}
+
+/* Títulos - Destaque - Bloco 1 */
+.main-title {
+    font-size: 58px;
+    font-family: 'coolvetica';
+    color: rgb(224, 174, 107);
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    }
+
+.above {
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 9px;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+#section-background {
+   position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Imagem Centralizada - Bloco 1 */
+.centre-img {
+    position: relative;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+#img1 {
+    width: 630px;
+    height: auto;
+    border: 12px solid white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+/* Entrada - Bloco 2*/
+.page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 40px 20px;
+    min-height: 1200px;
+    background: linear-gradient(to left, #d1aa56ec 50%, transparent 50%);
+
+}
+
+/* Título - Bloco 2 */
+.h2-title {
+    font-size: 58px;
+    font-family: 'coolvetica';
+    color: rgb(27, 29, 150);
+    font-weight: 400;
+    font-style: italic;
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.h3-title {
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'coolvetica';
+    color: aliceblue;
+    align-self: flex-end;
+    margin-top: 8px;
+}
+
+.right-side-text {
+    font-weight: 400;
+    font-size: 22px;
+    align-self: flex-end;
+    margin-left: 10px;
+    width: 250px;  /* Limita a largura do texto */
+    max-width: 30%;  /* Máximo 30% da página */
+    align-self: flex-end;
+    text-align: left;  /* Ou 'justify' para justificar */
+    line-height: 1.5;  /* Espaçamento entre linhas */
+    padding: 20px;  /* Espaço interno */
+    margin-right: 40px;  /* Margem da borda direita */
+    position: relative;
+    z-index: 1;  /* Fica acima do background */
+}
+
+#background-page2 {
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Imagem Centralizada - Bloco 2 */
+.centre-img2 {
+    position: relative;
+    margin-top: 50vh;
+    margin-left: 50vw;
+    z-index: 1;
+}
+
+#img2 {
+    width: 630px;
+    height: auto;
+    border: 12px solid white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    display: block;
+}
